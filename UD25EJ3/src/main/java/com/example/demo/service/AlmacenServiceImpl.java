@@ -9,7 +9,7 @@ import com.example.demo.dao.IAlmacenDAO;
 import com.example.demo.dto.Almacen;
 
 @Service
-public class AlmacenServiceImpl {
+public class AlmacenServiceImpl implements IAlmacenService {
 
 	@Autowired
 	IAlmacenDAO almacenDAO;

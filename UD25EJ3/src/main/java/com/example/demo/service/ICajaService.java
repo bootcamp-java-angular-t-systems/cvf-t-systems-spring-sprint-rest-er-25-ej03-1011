@@ -8,11 +8,11 @@ public interface ICajaService {
 
 	public List<Caja> findAll();
 
-	public Caja findById(int id);
+	public Caja findById(String id);
 
 	public Caja update(Caja caja);
 
 	public Caja save(Caja caja);
 
-	public void delete(int id);
+	public void delete(String id);
 }

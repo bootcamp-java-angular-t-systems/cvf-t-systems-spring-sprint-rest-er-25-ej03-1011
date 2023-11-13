@@ -9,7 +9,7 @@ import com.example.demo.dao.ICajaDAO;
 import com.example.demo.dto.Caja;
 
 @Service
-public class CajaServiceImpl {
+public class CajaServiceImpl implements ICajaService {
 
 	@Autowired
 	ICajaDAO cajaDAO;
