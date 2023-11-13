@@ -16,7 +16,7 @@ import com.example.demo.dto.Caja;
 import com.example.demo.service.CajaServiceImpl;
 
 @RestController
-@RequestMapping(name = "caja")
+@RequestMapping(name = "/caja")
 public class CajaController {
 
 	@Autowired
